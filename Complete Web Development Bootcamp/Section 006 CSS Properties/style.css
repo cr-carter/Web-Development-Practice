@@ -1,0 +1,25 @@
+/*
+  The goal of this project was to work with various font properties, such as font family,
+  as well as borders, margins, and padding (CSS Box Model).
+*/
+html {
+    background-color: black;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+img {
+    border: 5px solid white;
+    width: 100%;
+}
+
+#poster {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    color: white;
+    font-family: "Libre Baskerville", serif;
+    text-align: center;
+}
