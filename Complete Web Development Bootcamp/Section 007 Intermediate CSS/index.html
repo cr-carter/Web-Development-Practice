@@ -1,0 +1,65 @@
+<!--
+The purpose of this project was to gain experience and understanding of what cascade means in CSS, how to combine CSS
+selectors, and CSS positioning.
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Flag Project</title>
+  <style>
+    /* Write your CSS Code here */
+    .flag {
+      background-color: #ce1126;
+      width: 900px;
+      height: 600px;
+      position: relative;
+    }
+
+    .flag > div {
+      background-color: #002868;
+      height: 300px;
+      position: absolute;
+      top: 150px;
+      width: 100%
+    }
+
+    .flag > div > div {
+      background-color: #fff;
+      width: 200px;
+      height: 200px;
+      position: absolute;
+      top: 50px;
+      left: 350px;
+      border-radius: 50%;
+    }
+
+    p {
+      font-size: 5rem;
+      color: white;
+      text-align: center;
+      padding: 0px;
+      margin: 0px;
+    }
+
+    div div p {
+      color: black;
+    }
+
+ 
+  </style>
+</head>
+
+<body>
+  <div class="flag">
+    <p>The Flag</p>
+    <div>
+      <div>
+        <p>of Laos</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
