@@ -1,0 +1,81 @@
+/*
+The purpose of this project is to gain experience with more advanced CSS topics, such as various display and float formats
+and properties, a basic introduction to flexbox, grid, bootstrap, and using media-query to adjust CSS properties.
+*/
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #faf9f6;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+.main {
+  flex: 1;
+}
+
+.creative {
+  color: darkblue
+}
+
+h1 {
+  font-size: 5rem;
+  clear: both
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  clear: both
+}
+
+.card {
+  width: 45%
+}
+
+.left {
+  float: left
+}
+.right {
+  float: right
+}
+
+.tile-image {
+  height: 250px;
+  float: left;
+  margin-right: 50px;
+}
+
+@media (max-width: 700px) {
+  .logo {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+  }
+  
+  h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .card {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  .tile-image {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
