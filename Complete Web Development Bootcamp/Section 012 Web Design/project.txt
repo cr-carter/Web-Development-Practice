@@ -1,0 +1,5 @@
+This section was mainly exploring the concepts and application of color theory, typography,
+effective user interfaces, and user experience. The project for this section was using Canva
+to create a simple 3 page website layout utilizing the concepts taught.
+
+https://crcarter.my.canva.site/
