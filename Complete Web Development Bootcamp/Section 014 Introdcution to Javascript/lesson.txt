@@ -1,0 +1,4 @@
+This section of the course "The Complete Full-Stack Web Development Bootcamp" did not have a final project.
+This section was an introduction to Javascript. All of the topics covered were programming concepts that I
+was already familiar with in Python, and for me this lesson was more of an introduction to the formatting
+and stylistic choices used in Javascript.
